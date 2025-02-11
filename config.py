@@ -18,4 +18,4 @@ DB_URI = os.environ.get("DB_URI", "mongodb+srv://vc851283:0NtG2OpPsAzjNb1e@clust
 DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
-ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', False))
+ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
